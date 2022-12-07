@@ -200,7 +200,7 @@ Texture2D LoadTextureWithFiltering(char * file)
 void main()
 {
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-    InitWindow(800, 600, "raylibkart");
+    InitWindow(126, 126, "raylibkart");
 
     _shader = LoadShader("../assets/shader.vs", "../assets/shader.fs");
     int shaderPosUniform = GetShaderLocation(_shader, "pos");
